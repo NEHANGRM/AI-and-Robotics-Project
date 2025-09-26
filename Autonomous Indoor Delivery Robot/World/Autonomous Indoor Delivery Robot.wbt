@@ -1,0 +1,95 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3dx.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+  info [
+    ""
+    ""
+    ""
+    ""
+    ""
+    ""
+    ""
+  ]
+}
+Viewpoint {
+  orientation -0.06238986487325495 0.8544538683319521 0.5157674782822778 0.2813163230881543
+  position -9.681370184282494 -1.0069913620222652 2.2107804330676477
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 8 2
+}
+Pioneer3dx {
+  translation -3 0.3 0.1
+  name "deliveryBot"
+}
+Solid {
+  translation -3 0 0.2
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0.666667 0
+        }
+      }
+      geometry Box {
+        size 0.5 0.02 0.5
+      }
+    }
+  ]
+  name "PickupZone"
+  boundingObject Box {
+    size 0.5 0.02 0.5
+  }
+}
+Solid {
+  translation 3 0.01 0.2
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0.498039
+        }
+      }
+      geometry Box {
+        size 0.5 0.01 0.5
+      }
+    }
+  ]
+  name "DropZone"
+  boundingObject Box {
+    size 0.5 0.02 0.5
+  }
+}
+Solid {
+  translation 0 0.01 0.2
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 0 0
+        }
+      }
+      geometry Box {
+        size 0.6 0.01 0.6
+      }
+    }
+  ]
+  name "Charging Point"
+  boundingObject Box {
+    size 0.6 0.02 0.6
+  }
+}
+E-puck {
+  translation 3 0.4 0
+  name "dynamicObstacle1"
+}
