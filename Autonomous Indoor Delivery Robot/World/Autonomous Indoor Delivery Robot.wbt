@@ -278,7 +278,7 @@ Robot {
         }
       ]
       endPoint DEF EPUCK_RIGHT_WHEEL Solid {
-        translation 0 -0.025999999999999943 0.02
+        translation 0 -0.025999999999999957 0.02
         rotation 0 -0.9999999999999999 0 4.136873840634689
         children [
           Pose {
@@ -1712,7 +1712,7 @@ Robot {
         }
       ]
       endPoint DEF EPUCK_LEFT_WHEEL Solid {
-        translation 0 0.025999999999999943 0.02
+        translation 0 0.025999999999999957 0.02
         rotation 0 -1 0 4.136838571184119
         children [
           DEF EPUCK_WHEEL Pose {
@@ -1865,7 +1865,7 @@ Robot {
         }
       ]
       endPoint DEF EPUCK_RIGHT_WHEEL Solid {
-        translation 0 -0.025999999999999957 0.02
+        translation 0 -0.02599999999999997 0.02
         rotation 0 -1 0 4.136838553805593
         children [
           Pose {
@@ -3452,7 +3452,7 @@ Robot {
         }
       ]
       endPoint DEF EPUCK_RIGHT_WHEEL Solid {
-        translation 0 -0.025999999999999777 0.02
+        translation 0 -0.025999999999999763 0.02
         rotation 0 -0.9999999999999999 0 4.136844450605797
         children [
           Pose {
@@ -5039,7 +5039,7 @@ Robot {
         }
       ]
       endPoint DEF EPUCK_RIGHT_WHEEL Solid {
-        translation 0 -0.025999999999999777 0.02
+        translation 0 -0.025999999999999763 0.02
         rotation 0 -0.9999999999999999 0 4.136844450605797
         children [
           Pose {
@@ -6555,7 +6555,7 @@ Robot {
             }
           ]
           endPoint DEF RIGHT_EXTERNAL_ARM Solid {
-            translation 7.769363902232485e-10 -6.938893903907228e-18 -2.9882163271599538e-09
+            translation 7.769363971621424e-10 -6.938893903907228e-18 -2.9882163288946773e-09
             rotation 0.5773502806912747 -0.5773502806912769 -0.5773502461863251 2.0943950345049496
             children [
               DEF RIGHT_EXTERNAL_ARM_TRANSFORM Pose {
@@ -6584,7 +6584,7 @@ Robot {
                   anchor 0 0.067 0.0085
                 }
                 endPoint DEF GRIPPER_HEAD Solid {
-                  translation 0 -1.184695696113125e-06 9.343407413441723e-06
+                  translation 0 -1.1846956961270028e-06 9.343407413438254e-06
                   rotation -1 0 0 0.00013945260762060634
                   children [
                     Pose {
@@ -6704,7 +6704,7 @@ Robot {
                         anchor -0.023 0.074 -0.035
                       }
                       endPoint DEF LEFT_EXTERNAL_FINGER Solid {
-                        translation 9.049941372685222e-09 2.7755575615628914e-17 -5.947105918835405e-09
+                        translation 9.049941376154669e-09 2.7755575615628914e-17 -5.947105904957617e-09
                         rotation 0 1 0 2.5809568279517867e-07
                         children [
                           Pose {
@@ -6734,7 +6734,7 @@ Robot {
                               anchor -0.048 0.0715 -0.061
                             }
                             endPoint DEF LEFT_FINGER_TIP Solid {
-                              translation -3.5867665226785306e-09 2.7755575615628914e-17 2.82237338361524e-09
+                              translation -3.5867665226785306e-09 2.7755575615628914e-17 2.822373369737452e-09
                               rotation 0 -1 0 5.960464477539063e-08
                               children [
                                 Pose {
@@ -6840,7 +6840,7 @@ Robot {
                         anchor -0.008 0.074 -0.035
                       }
                       endPoint DEF LEFT_INTERNAL_FINGER Solid {
-                        translation 6.9917930368978976e-09 2.7755575615628914e-17 -1.5981249101848505e-09
+                        translation 6.9917930368978976e-09 2.7755575615628914e-17 -1.5981249171237444e-09
                         rotation 0 1 0 1.9992005623875177e-07
                         children [
                           Pose {
@@ -6899,7 +6899,7 @@ Robot {
                         anchor 0.023 0.074 -0.035
                       }
                       endPoint DEF RIGHT_EXTERNAL_FINGER Solid {
-                        translation 5.984547090526204e-09 0 3.932701594933086e-09
+                        translation 5.984547090526204e-09 0 3.932701587994192e-09
                         rotation 0 1 0 1.7120130796843858e-07
                         children [
                           Pose {
@@ -6921,7 +6921,7 @@ Robot {
                               anchor 0.048 0.0715 -0.061
                             }
                             endPoint DEF RIGHT_FINGER_TIP Solid {
-                              translation -2.715188941737612e-09 -2.7755575615628914e-17 -2.1365420613261854e-09
+                              translation -2.7151889556153996e-09 -2.7755575615628914e-17 -2.1365420543872915e-09
                               rotation 0 -1 0 4.2146848510894035e-08
                               children [
                                 Pose {
@@ -7015,7 +7015,7 @@ Robot {
                         anchor 0.008 0.074 -0.035
                       }
                       endPoint DEF RIGHT_INTERNAL_FINGER Solid {
-                        translation 4.426506019367116e-09 2.7755575615628914e-17 1.0117724921765436e-09
+                        translation 4.426506021101839e-09 2.7755575615628914e-17 1.0117724921765436e-09
                         rotation 0 1 0 1.264405455326821e-07
                         children [
                           Pose {
@@ -7704,7 +7704,7 @@ Robot {
         }
       ]
       endPoint DEF RIGHT_WHEEL Solid {
-        translation 0 -0.045799999999999896 0.0245
+        translation 0 -0.04579999999999988 0.0245
         rotation 0.6401653638193028 -0.6401653765564599 -0.42470766136770555 2.338346531060731
         children [
           USE WHEEL
@@ -8961,7 +8961,7 @@ Robot {
       0.011 0 0.032
     ]
   }
-  controller "ass-3"
+  controller "RobotController"
   battery [
     9961.168997169283
   ]
